@@ -1,0 +1,30 @@
+# Dependências
+**/node_modules/
+
+# Arquivos gerados
+**/dist/
+**/.next/
+**/build/
+**/coverage/
+
+# Arquivos de ambiente e segredos
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache TypeScript
+*.tsbuildinfo
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do Git
+.git/
+
+# Configuração local do VS Code
+.vscode/
